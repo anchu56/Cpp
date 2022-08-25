@@ -15,7 +15,7 @@ int main()
     if(flag==1){
         cout<<"It is not a prime number";
     }
-    else if(n==1){
+    else if(n==0){
         cout<<"It is neither a prime nor a composite number";
         }
     else{
