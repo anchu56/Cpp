@@ -15,8 +15,6 @@ class node{
 
 void InsertatTail(node* &head,int val){      // Insert at tail 
     node* n = new node(val);
-    
-
     if(head==NULL){
         head=n;
         return;
