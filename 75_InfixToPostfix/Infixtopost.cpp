@@ -58,7 +58,6 @@ void infixtopost(string x){
 }
 
 
-
 int main(){
     string x = "(a-b/c)*(a/k-l)";
     infixtopost(x);
